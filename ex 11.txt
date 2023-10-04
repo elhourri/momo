@@ -1,0 +1,11 @@
+algorithme:signe
+variable: a,b:entier
+debut
+	ecrire("donner deux nombres a et b")
+	lire(a,b)
+	si a<0 et b<0 ou a>0 et b>0 alors
+	ecrire("les deux nombres ont le meme singe")
+	sinon
+	ecrire("les deux nombres ont deux signe differents")
+	fin si 
+fin

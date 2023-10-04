@@ -1,0 +1,20 @@
+algorithme:age
+variables : a:entier
+debut
+	ecrire("enter l age")
+	lire(a)
+	si a>=6 et a<=7 alors
+	ecrire("enfant est poussin")
+	sinon
+	si a>=8 et a<=9 alors
+	ecrire("enfant est pupille")
+	sinon
+	si a>=10 et a<=11 alors
+	ecrire("enfant est minime")
+	sinon
+	si a>=12 alors
+	ecrire("enfant est cadet")
+	fin si
+	fin si
+	fin si
+fin

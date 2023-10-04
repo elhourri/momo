@@ -1,0 +1,11 @@
+algorithme:nombres
+variables : n,m:entier
+debut
+	ecrire("donner un nombre")
+	lire(n)
+	m<=n+1
+	tant que(m<=n+10)
+	m<--m+1
+	ecrire(m)
+	fin tant que
+fin

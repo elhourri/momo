@@ -1,0 +1,15 @@
+algorithme:factorielle
+variable:      n,i,f:entier
+debut
+	ecrire("donner un nombre")
+	lire(n)
+	tant que (n<=0)faire
+	ecrire("donner un nombre positif")
+	lire(n)
+	fin tant que
+	f<--1
+	pour i<--1 a n pas 1 faire
+	f<--f*i
+	fin pour 
+	ecrire("la factorielle est:" f)
+fin

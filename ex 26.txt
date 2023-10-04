@@ -1,0 +1,11 @@
+algorithme:somme
+variables:  n,s:entier   
+debut
+	ecrire("donner un nombre")
+	lire(n)
+	s<--0
+	pouri<--1 a n*2 pas 2 faire
+	s<--s+i^2
+	fin pour
+	ecrire("le resultat est", s)
+fin

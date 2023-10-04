@@ -1,0 +1,11 @@
+algorithme:diviseures
+vaiables :     n,i:entier
+debut
+	ecrire("donner un nombre")
+	lire(n)
+	pour i<--1 a n faire
+		si n mod i = 0 alors
+		ecrire(i)
+	fin si 
+	fin pour
+fin 

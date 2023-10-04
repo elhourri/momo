@@ -1,0 +1,12 @@
+algorithme:nombre
+Variable:    n,i:entier
+Debut
+	ecire("donner un nombre")
+	lire(n)
+	pour i<--n+1 a n+10 pas 1 faire
+	ecrire(i)
+	fin pour 
+fin
+
+
+     

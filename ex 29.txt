@@ -1,0 +1,14 @@
+algorithme:population
+variables : pm,pa,a:entier
+debut
+	pm<--1000000
+	pa<--50000
+	a<--0
+	tant que (pm>pa)faire
+	pm<--pm+50000
+	pa<--pa+pa*0.08
+	a<--a+1
+	fin tant que
+	ecrire("le nombres d annees pour que pa depasse pm est:" a)
+fin 
+	

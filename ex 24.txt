@@ -1,0 +1,11 @@
+algorithme : somme 
+variables:   n,i:entier
+debut
+	ecrire("donner un nombre")
+	lire(n)
+	s<--0
+	pouri<--0 a n pas 1 faire
+	s<--s+10^i
+	ecrire("la somme est:" s)
+	fin pour 
+fin
